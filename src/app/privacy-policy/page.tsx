@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">2. How We Use Your Information</h2>
             <p className="text-white/80">We use the information we collect to:</p>
             <ul className="list-disc pl-6 space-y-2 text-white/80">
-              <li>Provide and enhance the app's functionality, including enabling challenge
+              <li>Provide and enhance the app&apos;s functionality, including enabling challenge
                 creation and participation.</li>
               <li>Display challenge progress, leaderboards, and community interactions.</li>
               <li>Send notifications about app activity, such as challenge updates or community
@@ -63,8 +63,8 @@ export default function PrivacyPolicy() {
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">5. User Rights</h2>
             <p className="text-white/80">Users can:</p>
             <ul className="list-disc pl-6 space-y-2 text-white/80">
-              <li>Access, correct, or delete their information from the app's settings.</li>
-              <li>Request complete account and data deletion by emailing <a href="mailto:challengercontacto@gmail.com" className="text-[#ffcb30] hover:text-[#ffcb30]/80"> challengercontacto@gmail.com</a>.</li>
+              <li>Access, correct, or delete their information from the app&apos;s settings.</li>
+              <li>Request complete account and data deletion by emailing <a href="mailto:challengercontacto@gmail.com" className="text-[#ffcb30] hover:text-[#ffcb30]/80">challengercontacto@gmail.com</a>.</li>
             </ul>
 
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">6. Policy Updates</h2>

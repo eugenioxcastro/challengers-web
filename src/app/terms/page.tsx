@@ -17,8 +17,8 @@ export default function Terms() {
             <p className="text-white/80">
               Welcome to Challengers, a platform that allows users to create and participate in
               challenges with friends and build a community around activities such as exercise,
-              reading, and more. By accessing or using our application ("App"), you agree to be bound
-              by these Terms and Conditions ("Terms"). If you do not agree with these Terms, please
+              reading, and more. By accessing or using our application (&quot;App&quot;), you agree to be bound
+              by these Terms and Conditions (&quot;Terms&quot;). If you do not agree with these Terms, please
               do not use the App.
             </p>
 
@@ -66,7 +66,7 @@ export default function Terms() {
               <li>To create and participate in challenges in a respectful and lawful manner.</li>
               <li>Not to post or share content that is vulgar, offensive, defamatory, discriminatory,
                 or otherwise violates our Community Guidelines (see Section 5).</li>
-              <li>Not to engage in any activity that disrupts, damages, or interferes with the App's
+              <li>Not to engage in any activity that disrupts, damages, or interferes with the App&apos;s
                 functionality or security.</li>
               <li>Not to use the App for commercial purposes without our prior written consent.</li>
             </ul>
@@ -114,7 +114,7 @@ export default function Terms() {
                 limited to harassment, bullying, or posting vulgar, offensive, or
                 discriminatory material.</li>
               <li>Use automated tools (e.g., bots, scrapers) to access or collect data from the App.</li>
-              <li>Attempt to hack, disrupt, or bypass the App's security measures.</li>
+              <li>Attempt to hack, disrupt, or bypass the App&apos;s security measures.</li>
               <li>Impersonate another person or misrepresent your affiliation with any entity.</li>
               <li>Engage in harassment, bullying, or other harmful behavior toward other users.</li>
             </ul>
@@ -129,7 +129,7 @@ export default function Terms() {
 
             <h2 className="text-2xl font-bold text-white mt-8 mb-4">9. Disclaimers</h2>
             <p className="text-white/80">
-              The App is provided "as is" without warranties of any kind, whether express or implied,
+              The App is provided &quot;as is&quot; without warranties of any kind, whether express or implied,
               including warranties of merchantability, fitness for a particular purpose, or
               non-infringement.
             </p>

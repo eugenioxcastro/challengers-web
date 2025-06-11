@@ -10,14 +10,11 @@ interface ScreenshotCarouselProps {
 
 export const ScreenshotCarousel: React.FC<ScreenshotCarouselProps> = ({ images, className = '' }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isTransitioning, setIsTransitioning] = useState(false);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setIsTransitioning(true);
       setTimeout(() => {
         setCurrentIndex((current) => (current + 1) % images.length);
-        setIsTransitioning(false);
       }, 300); // Half of the transition time
     }, 6000);
 
