@@ -4,85 +4,83 @@ export default function PrivacyPolicy() {
   return (
     <MainLayout>
       <div className="max-w-4xl mx-auto px-4 py-20">
-        <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border-2 border-[#6366F1]/20">
-          <h1 className="text-4xl font-bold mb-8 bg-gradient-to-r from-[#6366F1] to-[#ffcb30] bg-clip-text text-transparent">
+        <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 lg:p-12 shadow-xl border border-white/10">
+          <h1 className="text-4xl font-bold mb-4 text-white">
             Privacy Policy
           </h1>
           
-          <div className="prose prose-lg max-w-none">
-            <div className="text-sm text-gray-500 mb-8">
-              Última actualización: 22/03/25
-            </div>
+          <div className="text-sm text-white/60 mb-8">
+            Last updated: May 22, 2025
+          </div>
 
-            <div className="space-y-6 text-gray-700">
-              <p className="text-lg">
-                Bienvenido a Challenger. Nos comprometemos a proteger la privacidad de nuestros usuarios. 
-                Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos la información 
-                personal de los usuarios de nuestra aplicación.
-              </p>
+          <div className="prose prose-lg prose-invert max-w-none">
+            <p className="text-white/80">
+              Welcome to Challenger! We are committed to protecting your privacy and ensuring a
+              safe and enjoyable experience in our community-driven app. This Privacy Policy
+              explains how we collect, use, protect, and share your personal information when you use
+              our application.
+            </p>
 
-              <section className="space-y-4">
-                <h2 className="text-2xl font-bold text-[#6366F1]">1. Información que Recopilamos</h2>
-                <p>Podemos recopilar los siguientes tipos de información:</p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li><span className="font-medium">Información de Cuenta:</span> Nombre, correo electrónico y otra información proporcionada al registrarse.</li>
-                  <li><span className="font-medium">Contenido Generado por el Usuario:</span> Fotos, descripciones y métricas relacionadas con los retos en los que participa.</li>
-                  <li><span className="font-medium">Datos de Uso:</span> Información sobre el uso de la aplicación, como interacciones y participación en retos.</li>
-                  <li><span className="font-medium">Datos del Dispositivo:</span> Información sobre el dispositivo, sistema operativo y configuraciones.</li>
-                </ul>
-              </section>
+            <h2 className="text-2xl font-bold text-white mt-8 mb-4">1. Information We Collect</h2>
+            <p className="text-white/80">We collect the following types of information to provide and improve our services:</p>
+            <ul className="list-disc pl-6 space-y-2 text-white/80">
+              <li><span className="font-medium text-white">Account Information:</span> Your name, email address, age, and other details
+                provided during registration. We require users to confirm they are at least 16
+                years old to comply with our ethical standards.</li>
+              <li><span className="font-medium text-white">User-Generated Content:</span> Photos, descriptions, metrics, and other content
+                related to the challenges you create or participate in.</li>
+              <li><span className="font-medium text-white">Usage Data:</span> Information about how you interact with the app, such as challenge
+                participation, app navigation, and engagement with features like leaderboards.</li>
+              <li><span className="font-medium text-white">Device Data:</span> Information about your device, including operating system, device
+                type, and settings, to optimize app performance.</li>
+            </ul>
 
-              <section className="space-y-4">
-                <h2 className="text-2xl font-bold text-[#6366F1]">2. Uso de la Información</h2>
-                <p>Utilizamos la información recopilada para:</p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>Proporcionar y mejorar la funcionalidad de la aplicación.</li>
-                  <li>Permitir la creación y participación en retos.</li>
-                  <li>Mostrar leaderboards y avances en los retos.</li>
-                  <li>Enviar notificaciones relacionadas con la actividad de la app.</li>
-                  <li>Garantizar la seguridad y prevenir fraudes.</li>
-                </ul>
-              </section>
+            <h2 className="text-2xl font-bold text-white mt-8 mb-4">2. How We Use Your Information</h2>
+            <p className="text-white/80">We use the information we collect to:</p>
+            <ul className="list-disc pl-6 space-y-2 text-white/80">
+              <li>Provide and enhance the app's functionality, including enabling challenge
+                creation and participation.</li>
+              <li>Display challenge progress, leaderboards, and community interactions.</li>
+              <li>Send notifications about app activity, such as challenge updates or community
+                interactions.</li>
+              <li>Ensure the safety and integrity of our platform by monitoring content and
+                preventing fraud.</li>
+              <li>Respond to user reports about inappropriate content or behavior within 24 hours.</li>
+              <li>Improve the app through analytics and performance insights.</li>
+            </ul>
 
-              <section className="space-y-4">
-                <h2 className="text-2xl font-bold text-[#6366F1]">3. Compartición de la Información</h2>
-                <p>No compartimos información personal con terceros, excepto en los siguientes casos:</p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li><span className="font-medium">Proveedores de Servicios:</span> Trabajamos con servicios externos para hosting, almacenamiento y análisis de datos.</li>
-                  <li><span className="font-medium">Cumplimiento Legal:</span> Podemos divulgar información si es requerida por ley o para proteger nuestros derechos.</li>
-                  <li><span className="font-medium">Interacción con otros Usuarios:</span> Cierta información, como el progreso en retos y leaderboards, puede ser visible para otros usuarios.</li>
-                </ul>
-              </section>
+            <h2 className="text-2xl font-bold text-white mt-8 mb-4">3. Information Sharing</h2>
+            <p className="text-white/80">We do not share personal information with third parties, except in the following cases:</p>
+            <ul className="list-disc pl-6 space-y-2 text-white/80">
+              <li><span className="font-medium text-white">Service Providers:</span> We work with external service providers for hosting, storage, and data analysis.</li>
+              <li><span className="font-medium text-white">Legal Requirements:</span> We may disclose information if required by law or to protect our rights.</li>
+              <li><span className="font-medium text-white">Community Interactions:</span> Certain information, such as challenge progress and leaderboards, may be visible to other users.</li>
+            </ul>
 
-              <section className="space-y-4">
-                <h2 className="text-2xl font-bold text-[#6366F1]">4. Seguridad de la Información</h2>
-                <p>Tomamos medidas razonables para proteger la información de nuestros usuarios contra accesos no autorizados, alteración y pérdida de datos.</p>
-              </section>
+            <h2 className="text-2xl font-bold text-white mt-8 mb-4">4. Security Measures</h2>
+            <p className="text-white/80">We take reasonable measures to protect personal information from unauthorized access, alteration, and loss.</p>
 
-              <section className="space-y-4">
-                <h2 className="text-2xl font-bold text-[#6366F1]">5. Derechos del Usuario</h2>
-                <p>Los usuarios pueden:</p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>Acceder, corregir o eliminar su información desde la configuración de la aplicación.</li>
-                  <li>Solicitar la eliminación completa de su cuenta y datos enviando un correo a <a href="mailto:hello@challengerai.app" className="text-[#ffcb30] hover:text-[#ffcb30]/80">hello@challengerai.app</a>.</li>
-                </ul>
-              </section>
+            <h2 className="text-2xl font-bold text-white mt-8 mb-4">5. User Rights</h2>
+            <p className="text-white/80">Users can:</p>
+            <ul className="list-disc pl-6 space-y-2 text-white/80">
+              <li>Access, correct, or delete their information from the app's settings.</li>
+              <li>Request complete account and data deletion by emailing <a href="mailto:challengercontacto@gmail.com" className="text-[#ffcb30] hover:text-[#ffcb30]/80"> challengercontacto@gmail.com</a>.</li>
+            </ul>
 
-              <section className="space-y-4">
-                <h2 className="text-2xl font-bold text-[#6366F1]">6. Cambios en la Política de Privacidad</h2>
-                <p>Podemos actualizar esta política en el futuro. Notificaremos a los usuarios sobre cambios significativos a través de la aplicación o por correo electrónico.</p>
-              </section>
+            <h2 className="text-2xl font-bold text-white mt-8 mb-4">6. Policy Updates</h2>
+            <p className="text-white/80">We may update this policy in the future. We will notify users about significant changes through the app or email.</p>
 
-              <section className="space-y-4">
-                <h2 className="text-2xl font-bold text-[#6366F1]">7. Contacto</h2>
-                <p>
-                  Si tienes preguntas sobre esta Política de Privacidad, contáctanos en{' '}
-                  <a href="mailto:hello@challengerai.app" className="text-[#ffcb30] hover:text-[#ffcb30]/80">
-                    hello@challengerai.app
-                  </a>.
-                </p>
-              </section>
-            </div>
+            <h2 className="text-2xl font-bold text-white mt-8 mb-4">9. Contact Us</h2>
+            <p className="text-white/80">
+              If you have questions, concerns, or requests regarding this Privacy Policy or our data
+              practices, please contact us at{' '}
+              <a 
+                href="mailto:challengercontacto@gmail.com" 
+                className="text-[#ffcb30] hover:text-[#ffcb30]/80 underline"
+              >
+                challengercontacto@gmail.com
+              </a>.
+            </p>
           </div>
         </div>
       </div>

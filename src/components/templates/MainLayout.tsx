@@ -7,42 +7,51 @@ interface MainLayoutProps {
 
 export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div className="min-h-screen flex flex-col" style={{ background: 'linear-gradient(to bottom, #ffcb30, #ff9f00)' }}>
-      <nav className="bg-white/90 backdrop-blur-sm fixed w-full z-50" style={{ borderBottom: '1px solid rgba(255, 203, 48, 0.1)' }}>
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#1a1a1a] to-[#2a2a2a]">
+      <nav className="fixed w-full z-50 bg-black/10 backdrop-blur-lg border-b border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <Link href="/" className="text-2xl font-bold transition-colors" style={{ color: '#ff9f00' }}>
+              <Link href="/" className="text-2xl font-bold text-white hover:text-white/80 transition-colors">
                 Challengers
               </Link>
             </div>
-            <div className="flex items-center">
-              <Link 
-                href="/privacy-policy" 
-                className="font-medium transition-colors"
-                style={{ color: '#ff9f00' }}
-              >
-                Privacy Policy
-              </Link>
+            <div className="flex items-center gap-4">
+              <div className="flex items-center">
+                <Link 
+                  href="/privacy-policy" 
+                  className="text-white/70 hover:text-white font-medium transition-colors"
+                >
+                  Privacy Policy
+                </Link>
+              </div>
+              <div className="flex items-center">
+                <Link 
+                  href="/terms" 
+                  className="text-white/70 hover:text-white font-medium transition-colors"
+                >
+                  Terms and Conditions
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </nav>
 
       <main className="flex-grow relative">
+        {/* Gradient background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a]" />
+        
+        {/* Grid pattern */}
         <div 
-          className="absolute inset-0 animate-gradient" 
+          className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-[0.15]" 
           style={{ 
-            background: 'linear-gradient(to bottom right, rgba(255, 203, 48, 0.8), rgba(255, 159, 0, 0.8))'
-          }}
+            maskImage: 'radial-gradient(circle at center, white, transparent 80%)',
+            WebkitMaskImage: 'radial-gradient(circle at center, white, transparent 80%)'
+          }} 
         />
-        <div 
-          className="absolute inset-0" 
-          style={{ 
-            background: 'radial-gradient(circle at center, rgba(255, 255, 255, 0.1), transparent, transparent)'
-          }}
-        />
-        <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center" style={{ maskImage: 'linear-gradient(180deg, white, rgba(255,255,255,0))' }} />
+
+        {/* Content */}
         <div className="relative z-10">
           {children}
         </div>
