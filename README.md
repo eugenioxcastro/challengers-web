@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Challengers Web
 
-## Getting Started
+The official website for the Challengers mobile app, built with Next.js and Tailwind CSS.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Challengers Web serves as the public face of our mobile application, providing essential information and legal documentation for our users. The website features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Landing Page**: A modern, engaging showcase of our mobile app's features and benefits
+- **Privacy Policy**: Detailed information about how we handle and protect user data
+- **Terms & Conditions**: Clear guidelines and rules for using our platform
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## About Challengers
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Challengers is a community-driven mobile app that enables users to:
+- Create and participate in personal challenges
+- Build habits through friendly competition
+- Track progress with friends
+- Join a supportive community of like-minded individuals
 
-## Learn More
+## Technology Stack
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Framer Motion for animations
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+For any inquiries about the Challengers app or this website, please contact us at:
+challengercontacto@gmail.com
 
-## Deploy on Vercel
+## Legal
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For detailed information about our policies and terms, please visit:
+- [Privacy Policy](/privacy-policy)
+- [Terms & Conditions](/terms)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Mobile App
+
+The Challengers mobile app is available for download on:
+- iOS App Store (coming soon)
+- Google Play Store (coming soon)
+
+---
+© 2024 Challengers. All rights reserved.
