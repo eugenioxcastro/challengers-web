@@ -1,6 +1,6 @@
 # Challengers Web
 
-The official website for the Challengers mobile app, built with Next.js and Tailwind CSS.
+The official website for the Challengers mobile app, built with Next.js and Tailwind CSS. Visit the project at https://challengerai.app/
 
 ## Overview
 
